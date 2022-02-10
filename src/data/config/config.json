@@ -3,7 +3,7 @@
         "show_call_box": true
     },
     "logo": {
-        "mobile": "/images/logo/logo-mobile.svg",
+        "mobile": "/images/logo/mi8.png",
         "desktop": "/images/logo/mi8.png",
         "desktop_height": "72px",
         "alt": "Serif - A Gatsby Business Theme"

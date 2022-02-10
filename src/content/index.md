@@ -5,6 +5,6 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Gatsby Business Theme.
+# mi8 - Is your company still stuck in the analog world ?
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Hi, we're mi8. We design & build enterprise solutions for a digital world. Let us help you enter the digital age.

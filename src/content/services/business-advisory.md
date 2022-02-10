@@ -1,19 +1,14 @@
 ---
-title: "Business Advisory"
+title: 'Operational agility inside'
 date: 2018-11-28T15:14:39+10:00
 featured: true
 draft: false
 weight: 2
 ---
 
-Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares
-ignisque quaerit dederat gemino Aethiopesque [caelo](#inque-ne-collocat)
-ulciscitur est. Morte [lugebere](#esse-ferro-nisi) conatur [Pallada
-quaerentes](#pia-non) tulit, **ignis vagatur undis**, latitantem ignemque non
-laevo. Terras seu favoni tectas movit hunc motuque damno tutoque quattuor. Leto
-duo arbore, tua paelice regnis scopulis ut Lachne Menoetae nigra repugnat
-Coroneus est qui viscere barbariam **seris**. Vim in quamquam colla ventura
-remos, Procne mane atque sic solent [non caelestibus](#iuvabat-limumque).
+We build solutions with a focus on operations. We love operations. Our solutions are fully instrumented to track & trace every business operation performed on the field, in store or in the warehouse by your collaborators. From those operational analytics, we surface valuable insights and generate rapid calls to action, to mitigate impediments or capture newfound opportunities.
+
+![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
 ## Inter pectore totidem
 
