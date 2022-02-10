@@ -1,10 +1,11 @@
 // Colors
-$primary: #8036ca;
+// $primary: #8036ca;
+$primary: #ff5722;
 $secondary: #ffe55f;
 $black: #2f2f41;
 $white: #ffffff;
 $white-offset: #f6f7ff;
-$steel: #5C5A5A;
+$steel: #5c5a5a;
 
 // Links
 $link-color: $primary;
@@ -27,7 +28,6 @@ $sub-footer-text-color: $white;
 @import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
 // @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
-
 
 // Libraries
 @import 'libraries/hamburgers/hamburgers';
