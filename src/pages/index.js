@@ -30,9 +30,11 @@ const Home = (props) => {
       <SEO title={site.title} />
       <Helmet>
         <meta
-          name='description'
-          content='Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme.'
+          name="description"
+          content="mi8 / Mission-critical apps"
         />
+        <meta name="keywords" content="mi8, Mobile, Web, Apps, Consulting, .Net, Android, iOS, Angular, React, Cloud, Azure, Security, IoT, Energy, Web3, dApps" />
+        <meta name="author" content="mi8" />
       </Helmet>
 
       <div className='intro'>
