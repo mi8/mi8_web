@@ -1,6 +1,5 @@
 import React from 'react';
 import '../scss/components/_mi8Footer.scss';
-import { graphql, useStaticQuery } from 'gatsby';
 
 const Mi8footer = () => {
   return (
