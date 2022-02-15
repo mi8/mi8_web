@@ -13,7 +13,7 @@ const SubFooter = () => {
     }
   `);
   return (
-    <div className='sub-footer' style={{ backgroundColor: '#424242', display: 'flex', justifyContent: 'center', alignItems: 'center',padding:"15px" }}>
+    <div className='sub-footer' style={{ backgroundColor: '#262B34', display: 'flex', justifyContent: 'center', alignItems: 'center',padding:"15px" }}>
       <div className=''>
         <div className='row'>
           <div className='col-12'>

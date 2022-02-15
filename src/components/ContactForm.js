@@ -11,7 +11,7 @@ import linkedin from '../../static/images/footer/linkedin.svg'
 const Contactform = (props) => {
   return (
     <>
-      <div className='container'>
+      <div className='form'>
         <div className='block'>
           <div className='write-us'>
             <div className='left-content'>

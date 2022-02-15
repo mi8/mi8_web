@@ -11,6 +11,10 @@ $padding-content: 3rem;
   align-items: center;
 }
 
+.form {
+  @include flex;
+}
+
 .block {
   width: 949px;
   min-height: 720px;
