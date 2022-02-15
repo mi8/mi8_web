@@ -27,7 +27,6 @@ const Mi8footer = () => {
               </a>
             </div>
             <div className='description i-book'>Chaussée de Namur 31/5</div>
-            <div className='description'> 1457 Walhain, Belgium</div>
           </div>
           <div className='contact-us'>
             <a className='contact-button' href={`mailto:info@mi8.be`} style={{ color: '#ffffff' }}>
