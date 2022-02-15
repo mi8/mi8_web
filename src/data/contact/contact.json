@@ -1,5 +1,7 @@
 {
-    "email": "info@mi8.be",
-    "phone": "1800 123 000",
-    "contact_button_link": "contact"
+  "email": "info@mi8.be",
+  "phone": "1800 123 000",
+  "contact_button_link": "contact",
+  "footer": "Looking for a partner to boost your digital transformation ?",
+  "footer2":"We'd love to help."
 }

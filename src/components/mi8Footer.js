@@ -1,13 +1,22 @@
 import React from 'react';
 import '../scss/components/_mi8Footer.scss';
+import { graphql, useStaticQuery } from 'gatsby';
 
 const Mi8footer = () => {
+  const data = useStaticQuery(graphql`
+    query footerText {
+      contactJson {
+        footer
+        footer2
+      }
+    }
+  `);
   return (
     <>
       <footer className='mi8-footer'>
         <div className='container'>
           <p className='footer-info'>
-            Looking for a partner to boost your digital transformation ? <br /> We'd love to help.
+            {data.contactJson.footer} <br /> {data.contactJson.footer2}
           </p>
           <div className='group-information'>
             <div className='description i-phone'> mi8 SRL</div>

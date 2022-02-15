@@ -67,7 +67,7 @@
       flex-direction: column;
       padding: 0px 20px;
       .contact-button {
-        width: 210px;
+        width: 200px;
         font-size: 1.3em;
         padding: 10px;
         vertical-align: middle;
@@ -97,7 +97,7 @@
       }
       .icons {
         display: flex;
-        width: 210px;
+        width: 200px;
         padding: 15px 10px;
         justify-content: space-around;
         .twitter,
@@ -105,6 +105,10 @@
           display: block;
           width: 30px;
           height: 30px;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.2);
+          }
         }
         .twitter {
           background: url('../../../static/images/footer/twitter.svg') no-repeat;
@@ -114,5 +118,18 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: $breakpoint) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-info,
+  .group-information,
+  .contact-us {
+    padding: 20px 0px;
   }
 }
