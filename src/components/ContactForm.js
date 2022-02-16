@@ -6,32 +6,43 @@ import email from '../../static/images/contact-page/email.svg';
 import world from '../../static/images/contact-page/world.svg';
 import twitter from '../../static/images/social/twitter.svg';
 import github from '../../static/images/social/github.svg';
-import linkedin from '../../static/images/footer/linkedin.svg'
+import linkedin from '../../static/images/footer/linkedin.svg';
+import { useState } from 'react';
 
-const Contactform = (props) => {
+const Contactform = () => {
+  const [form, setForm] = useState({ name: '', email: '', subject: '', content: '' });
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(form);
+    setForm({ name: '', email: '', subject: '', content: '' });
+  };
   return (
     <>
       <div className='form'>
         <div className='block'>
           <div className='write-us'>
-            <div className='left-content'>
+            <form onSubmit={handleSubmit} className='left-content'>
               <h3>Contact Form </h3>
               <div className='form-control'>
-                <input type='text' name='name' placeholder='Name' />
+                <input type='text' name='name' placeholder='Name' onChange={handleChange} value={form.name} />
               </div>
               <div className='form-control'>
-                <input type='text' name='email' placeholder='Email' />
+                <input type='text' name='email' placeholder='Email' onChange={handleChange} value={form.email} />
               </div>
               <div className='form-control'>
-                <input type='text' name='subject' placeholder='Subject' />
+                <input type='text' name='subject' placeholder='Subject' onChange={handleChange} value={form.subject} />
               </div>
               <div className='form-control'>
-                <textarea type='text' name='content' placeholder='Content' />
+                <textarea style={{ resize: 'none' }} type='text' name='content' placeholder='Content' onChange={handleChange} value={form.content} />
               </div>
               <div className='send-message'>
-                <a className='button'>Send Message</a>
+                <input type='submit' className='button' value='Send Message' />
               </div>
-            </div>
+            </form>
           </div>
           <div className='contact-information'>
             <div className='right-content'>
@@ -95,7 +106,7 @@ const Contactform = (props) => {
                   <div className='info'>
                     Github :
                     <p>
-                      <a href='https://twitter.com/mobileInception' target='_blank'>
+                      <a href='https://github.com/mi8' target='_blank'>
                         orgs/mi8/dashboard
                       </a>
                     </p>
@@ -108,8 +119,8 @@ const Contactform = (props) => {
                   <div className='info'>
                     Linkedin :
                     <p>
-                      <a href='https://twitter.com/mobileInception' target='_blank'>
-                        homepage
+                      <a href='https://www.linkedin.com/company/mi8-be/about/' target='_blank'>
+                        mi8-be
                       </a>
                     </p>
                   </div>
