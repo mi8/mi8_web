@@ -1,0 +1,156 @@
+@import '../style.scss';
+.mi8-footer {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  .container {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-evenly;
+    .footer-info {
+      font-size: 1.3em;
+      font-weight: 300;
+      width: 300px;
+      line-height: 30px;
+      color: #ffffff;
+    }
+    .group-information {
+      padding: 5px 40px;
+      .description {
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.68;
+        letter-spacing: 0.04em;
+        padding: 7px 0;
+        &:before {
+          content: '';
+          background-size: 100%;
+          display: block;
+          width: 25px;
+          height: 25px;
+          float: left;
+          margin: 0px 9px 0 0;
+        }
+      }
+      .i-phone {
+        &:before {
+          background: url('../../../static/images/footer/smartphone.svg') no-repeat;
+        }
+      }
+      .i-print {
+        &:before {
+          background: url('../../../static/images/footer/print.svg') no-repeat;
+        }
+      }
+      .i-telegram {
+        cursor: pointer;
+        a {
+          all: unset;
+          color: '#ffffff';
+          &:hover {
+            color: $primary;
+          }
+        }
+
+        &:before {
+          background: url('../../../static/images/footer/telegram.svg') no-repeat;
+        }
+      }
+      .i-book {
+        &:before {
+          background: url('../../../static/images/footer/address-book.svg') no-repeat;
+        }
+      }
+    }
+    .contact-us {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 20px;
+      .contact-button {
+        width: 200px;
+        font-size: 1.3em;
+        padding: 10px;
+        vertical-align: middle;
+        background-color: transparent;
+        margin-top: 25px;
+        border: 1px solid #ffffff;
+        display: flex;
+        justify-content: flex-start;
+        text-decoration: none;
+        line-height: 1.42857143;
+        white-space: nowrap;
+        align-items: center;
+        &:hover {
+          background-color: $primary;
+          border: 1px solid $primary;
+        }
+        .img {
+          display: block;
+          width: 25px;
+          height: 25px;
+          background: url('../../../static/images/footer/telebutton.svg') no-repeat;
+        }
+        .text {
+          margin-left: auto;
+          padding-right: 3px;
+        }
+      }
+      .icons {
+        display: flex;
+        width: 200px;
+        padding: 15px 10px;
+        justify-content: space-around;
+        .twitter,
+        .linkedin {
+          display: block;
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+        .twitter {
+          background: url('../../../static/images/footer/twitter.svg') no-repeat;
+        }
+        .linkedin {
+          background: url('../../../static/images/footer/linkedin.svg') no-repeat;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-info,
+  .group-information,
+  .contact-us {
+    padding: 20px 0px;
+  }
+  .icons {
+    padding-top: 25px !important;
+  }
+}
+.mi8-copyright {
+  font-size: 14px;
+  grid-column-start: 4;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  .a {
+    all: unset;
+    cursor: pointer;
+    margin: 0 18px;
+    &:hover {
+      color: $primary !important;
+    }
+  }
+}
