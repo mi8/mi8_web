@@ -4,6 +4,8 @@ import Helmet from 'react-helmet';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import Call from '../components/Call';
+import Lottie from 'react-lottie';
+import animation from '../../static/images/animation/groupwork.json';
 
 const Home = props => {
   const intro = props.data.intro;
@@ -11,6 +13,15 @@ const Home = props => {
   const services = props.data.services.edges;
   const features = props.data.features.edges;
   const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute && 'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animation,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
 
   return (
     <Layout bodyClass="page-home">
@@ -33,7 +44,10 @@ const Home = props => {
             </div>
             {intro.frontmatter.intro_image && (
               <div className="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-                <img alt={intro.frontmatter.title} className={introImageClasses} src={intro.frontmatter.intro_image} />
+                <div className={introImageClasses}>
+                  <Lottie options={defaultOptions} height={750} width={750} />
+                </div>
+                {/* <img alt={intro.frontmatter.title} className={introImageClasses} src={intro.frontmatter.intro_image} /> */}
               </div>
             )}
           </div>
