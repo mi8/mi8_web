@@ -25,15 +25,6 @@ const Home = (props) => {
     },
   };
 
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animation,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice',
-    },
-  };
-
   return (
     <Layout bodyClass='page-home'>
       <SEO title={site.title} />
