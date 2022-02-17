@@ -136,3 +136,21 @@
     padding-top: 25px !important;
   }
 }
+.mi8-copyright {
+  font-size: 14px;
+  grid-column-start: 4;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  .a {
+    all: unset;
+    cursor: pointer;
+    margin: 0 18px;
+    &:hover {
+      color: $primary !important;
+    }
+  }
+}

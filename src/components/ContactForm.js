@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../scss/components/_contact-form.scss';
 import address from '../../static/images/contact-page/home-address.svg';
+import building from '../../static/images/contact-page/building.svg';
 import phone from '../../static/images/contact-page/phone.svg';
 import email from '../../static/images/contact-page/email.svg';
 import world from '../../static/images/contact-page/world.svg';
 import twitter from '../../static/images/social/twitter.svg';
-import github from '../../static/images/social/github.svg';
 import linkedin from '../../static/images/footer/linkedin.svg';
-import { useState } from 'react';
 
 const Contactform = () => {
   const [form, setForm] = useState({ name: '', email: '', subject: '', content: '' });
@@ -51,6 +50,14 @@ const Contactform = () => {
               <div className='all-info'>
                 <div className='information'>
                   <div className='circle'>
+                    <img className='icon building' src={building} alt='' />
+                  </div>
+                  <div className='info'>
+                    Name : <p>mi8 SRL</p>
+                  </div>
+                </div>
+                <div className='information'>
+                  <div className='circle'>
                     <img className='icon address' src={address} alt='' />
                   </div>
                   <div className='info'>
@@ -67,7 +74,7 @@ const Contactform = () => {
                 </div>
                 <div className='information'>
                   <div className='circle'>
-                    <img className='icon phone' src={email} alt='' />
+                    <img className='icon email' src={email} alt='' />
                   </div>
                   <div className='info'>
                     Email : <p> info@mi8.be</p>
@@ -75,12 +82,12 @@ const Contactform = () => {
                 </div>
                 <div className='information'>
                   <div className='circle'>
-                    <img className='icon phone' src={world} alt='' />
+                    <img className='icon world' src={world} alt='' />
                   </div>
                   <div className='info'>
                     Website :
                     <p>
-                      <a href='https://testwalchain.netlify.app/' target='_blank'>
+                      <a href='https://testwalchain.netlify.app/' rel='noreferrer' target='_blank'>
                         mi8.com
                       </a>
                     </p>
@@ -88,12 +95,12 @@ const Contactform = () => {
                 </div>
                 <div className='information'>
                   <div className='circle'>
-                    <img className='icon phone' src={twitter} alt='' />
+                    <img className='icon twitter' src={twitter} alt='' />
                   </div>
                   <div className='info'>
                     Twitter :
                     <p>
-                      <a href='https://twitter.com/mobileInception' target='_blank'>
+                      <a href='https://twitter.com/mobileInception' rel='noreferrer' target='_blank'>
                         mobileInception
                       </a>
                     </p>
@@ -101,25 +108,12 @@ const Contactform = () => {
                 </div>
                 <div className='information'>
                   <div className='circle'>
-                    <img className='icon phone' src={github} alt='' />
-                  </div>
-                  <div className='info'>
-                    Github :
-                    <p>
-                      <a href='https://github.com/mi8' target='_blank'>
-                        orgs/mi8/dashboard
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className='information'>
-                  <div className='circle'>
-                    <img className='icon phone' src={linkedin} alt='' />
+                    <img className='icon linkedin' src={linkedin} alt='' />
                   </div>
                   <div className='info'>
                     Linkedin :
                     <p>
-                      <a href='https://www.linkedin.com/company/mi8-be/about/' target='_blank'>
+                      <a href='https://www.linkedin.com/company/mi8-be/about/' rel='noreferrer' target='_blank'>
                         mi8-be
                       </a>
                     </p>

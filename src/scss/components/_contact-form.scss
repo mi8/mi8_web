@@ -1,5 +1,4 @@
 @import '../style.scss';
-
 $padding-content: 3rem;
 @mixin max-size {
   min-height: 100%;
@@ -13,12 +12,14 @@ $padding-content: 3rem;
 
 .form {
   @include flex;
+  // background-color: #fafafa;
 }
 
 .block {
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 5px #000000;
   width: 949px;
   min-height: 720px;
-  padding: 10px 0;
   margin: 60px 0 50px;
   display: flex;
   font-family: 'Roboto', sans-serif;
@@ -78,7 +79,7 @@ $padding-content: 3rem;
       p {
         all: unset;
         font-size: 18px;
-        color: #646464;
+        color: #ffffff;
       }
       .all-info {
         width: 100%;
@@ -105,7 +106,12 @@ $padding-content: 3rem;
             .address {
               width: 16px;
             }
-            .phone {
+            .linkedin,
+            .world,
+            .building,
+            .phone,
+            .email,
+            .twitter {
               width: 27px;
             }
           }

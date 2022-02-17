@@ -1,10 +1,10 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Helmet from 'react-helmet';
+import Lottie from 'react-lottie';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import Call from '../components/Call';
-import Lottie from 'react-lottie';
 import animation from '../../static/images/animation/groupwork.json';
 
 const Home = (props) => {
@@ -29,12 +29,12 @@ const Home = (props) => {
     <Layout bodyClass='page-home'>
       <SEO title={site.title} />
       <Helmet>
+        <meta name='description' content='mi8 / Mission-critical apps' />
         <meta
-          name="description"
-          content="mi8 / Mission-critical apps"
+          name='keywords'
+          content='mi8, Mobile, Web, Apps, Consulting, .Net, Android, iOS, Angular, React, Cloud, Azure, Security, IoT, Energy, Web3, dApps'
         />
-        <meta name="keywords" content="mi8, Mobile, Web, Apps, Consulting, .Net, Android, iOS, Angular, React, Cloud, Azure, Security, IoT, Energy, Web3, dApps" />
-        <meta name="author" content="mi8" />
+        <meta name='author' content='mi8' />
       </Helmet>
 
       <div className='intro'>

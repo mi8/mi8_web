@@ -2483,6 +2483,14 @@ babel-preset-gatsby@^1.14.0:
     gatsby-core-utils "^2.14.0"
     gatsby-legacy-polyfills "^1.14.0"
 
+babel-runtime@^6.26.0:
+  version "6.26.0"
+  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
+
 backo2@^1.0.2, backo2@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/backo2/-/backo2-1.0.2.tgz#31ab1ac8b129363463e35b3ebb69f4dfcfba7947"
@@ -3228,7 +3236,7 @@ core-js-pure@^3.20.2:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.21.0.tgz#819adc8dfb808205ce25b51d50591becd615db7e"
   integrity sha512-VaJUunCZLnxuDbo1rNOzwbet9E1K9joiXS5+DQMPtgxd24wfsZbJZMMfQLGYMlCUvSxLfsRUUhoOR2x28mFfeg==
 
-core-js@^2.6.5:
+core-js@^2.4.0, core-js@^2.6.5:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
@@ -4859,6 +4867,13 @@ gatsby-page-utils@^1.14.0:
     glob "^7.1.7"
     lodash "^4.17.21"
     micromatch "^4.0.4"
+
+gatsby-plugin-eslint@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-eslint/-/gatsby-plugin-eslint-4.0.2.tgz#a963d03c851e299d407becec8c9b5e4386d2223e"
+  integrity sha512-fNLmtu8zgkrdifF9tnbtzmraJzSulhLo868FObCkArfjXB4PLxguxfBWKuJ6PMeZcSIIA4SgouCXHo2hoA12Pw==
+  dependencies:
+    webpack-merge "^5.8.0"
 
 gatsby-plugin-google-analytics@^3.12.0:
   version "3.14.0"
@@ -6814,6 +6829,11 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
+
+lottie-web@^5.1.3:
+  version "5.8.1"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.8.1.tgz#807e0af0ad22b59bf867d964eb684cb3368da0ef"
+  integrity sha512-9gIizWADlaHC2GCt+D+yNpk5l2clZQFqnVWWIVdY0LnxC/uLa39dYltAe3fcmC/hrZ2IUQ8dLlY0O934Npjs7Q==
 
 lower-case@^2.0.2:
   version "2.0.2"
@@ -8915,6 +8935,14 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-lottie@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/react-lottie/-/react-lottie-1.2.3.tgz#8544b96939e088658072eea5e12d912cdaa3acc1"
+  integrity sha512-qLCERxUr8M+4mm1LU0Ruxw5Y5Fn/OmYkGfnA+JDM/dZb3oKwVAJCjwnjkj9TMHtzR2U6sMEUD3ZZ1RaHagM7kA==
+  dependencies:
+    babel-runtime "^6.26.0"
+    lottie-web "^5.1.3"
+
 react-refresh@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
@@ -9016,6 +9044,11 @@ regenerate@^1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
+
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+  integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
 regenerator-runtime@^0.13.4:
   version "0.13.9"
@@ -10874,7 +10907,7 @@ webpack-dev-middleware@^4.1.0:
     range-parser "^1.2.1"
     schema-utils "^3.0.0"
 
-webpack-merge@^5.7.3:
+webpack-merge@^5.7.3, webpack-merge@^5.8.0:
   version "5.8.0"
   resolved "https://registry.yarnpkg.com/webpack-merge/-/webpack-merge-5.8.0.tgz#2b39dbf22af87776ad744c390223731d30a68f61"
   integrity sha512-/SaI7xY0831XwP6kzuwhKWVKDP9t1QY1h65lAFLbZqMPIuYcD9QAW4u9STIbU9kaJbPBB/geU/gLr1wDjOhQ+Q==
