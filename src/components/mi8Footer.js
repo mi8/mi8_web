@@ -3,18 +3,18 @@ import '../scss/components/_mi8Footer.scss';
 import { graphql, useStaticQuery } from 'gatsby';
 
 const Mi8footer = () => {
-  const data = useStaticQuery(graphql`
-    query footerText {
-      contactJson {
-        footer
-        footer2
-      }
-    }
-  `);
+  // const data = useStaticQuery(graphql`
+  //   query footerText {
+  //     contactJson {
+  //       footer
+  //       footer2
+  //     }
+  //   }
+  // `);
   return (
     <>
       <footer className='mi8-footer'>
-        <div className='container'>
+        {/* <div className='container'>
           <p className='footer-info'>
             {data.contactJson.footer} <br /> {data.contactJson.footer2}
           </p>
@@ -39,7 +39,7 @@ const Mi8footer = () => {
               <div className='linkedin'></div>
             </div>
           </div>
-        </div>
+        </div> */}
       </footer>
     </>
   );

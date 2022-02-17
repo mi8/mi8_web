@@ -6,18 +6,18 @@
         "mobile": "/images/logo/mi8.png",
         "desktop": "/images/logo/mi8.png",
         "desktop_height": "72px",
-        "alt": "Serif - A Gatsby Business Theme"
+        "alt": "mi8 / Mission-critical apps"
     },
     "homepage_meta_tags": {
-        "meta_description": "Serif is a modern business theme for Gatsby. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated.",
-        "meta_og_title": "Gatsby Serif Theme",
+        "meta_description": "Hi, we're mi8. We design & build enterprise solutions for a digital world.",
+        "meta_og_title": "mi8 / Mission-critical apps",
         "meta_og_type": "website",
-        "meta_og_url": "https://gatsby-serif.netlify.app/",
+        "meta_og_url": "https://mi8.be/",
         "meta_og_image": "https://www.zerostatic.io/theme/gatsby-serif/gatsby-serif-screenshot.png",
-        "meta_og_description": "Serif is a modern business theme for Gatsby. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated.",
+        "meta_og_description": "Hi, we're mi8. We design & build enterprise solutions for a digital world.",
         "meta_twitter_card": "summary",
-        "meta_twitter_site": "@zerostaticio",
-        "meta_twitter_creator": "@zerostaticio"
+        "meta_twitter_site": "@mobileinception",
+        "meta_twitter_creator": "@mobileinception"
     },
     "footer": {
         "copyright_text": "© 2022 mi8 SRL. All Rights Reserved",
