@@ -1,10 +1,10 @@
 ---
-title: "Bill McDonald"
+title: 'Abdel Ahd'
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: "/images/team/nonsap-visuals-kMJp7620W6U-unsplash.jpg"
-jobtitle: "Graphic Designer"
-linkedinurl: ""
+image: '/images/team/Abdel.jpg'
+jobtitle: 'Graphic Designer'
+linkedinurl: ''
 weight: 7
 ---
 
