@@ -2,12 +2,12 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Contactform from '../components/ContactForm';
-import Call from '../components/Call';
 import '../scss/components/_contact-form.scss';
 
 const Contact = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
   const { html } = data.markdownRemark;
+  title, html;
   return (
     <Layout bodyClass='page-default-single'>
       <Contactform />

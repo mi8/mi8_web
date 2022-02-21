@@ -14,11 +14,11 @@ class Header extends React.Component {
     };
   }
 
-  toggleMenu = menuActive => {
-    this.setState(prevState => ({
-      menuActive: !prevState.menuActive
-    }));
-  };
+  // toggleMenu = menuActive => {
+  //   this.setState(prevState => ({
+  //     menuActive: !prevState.menuActive
+  //   }));
+  // };
 
   render() {
     const config = this.props.data.configJson;
