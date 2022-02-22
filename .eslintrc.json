@@ -19,7 +19,6 @@
   "rules": {
     "max-len": ["error", { "code": 160 }],
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
-    "linebreak-style": ["error", "windows"],
     "semi": ["error", "always"],
     "arrow-body-style": ["error", "as-needed"],
     "no-unused-vars": 1,
