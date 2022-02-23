@@ -1,8 +1,8 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
-import Social from './Social';
+import { graphql, useStaticQuery, Link } from 'gatsby';
+import '../scss/components/_mi8Footer.scss';
 
-const SubFooter = props => {
+const SubFooter = () => {
   const data = useStaticQuery(graphql`
     query SubFooterQuery {
       configJson {
@@ -14,21 +14,27 @@ const SubFooter = props => {
     }
   `);
   return (
-    <div className="sub-footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="sub-footer-inner">
-              <Social />
-              <div className="copyright">
-                <span>{data.configJson.footer.copyright_text}</span>
-                {data.configJson.footer.copyright_link && (
-                  <a href={data.configJson.footer.copyright_link}>{data.configJson.footer.copyright_link}</a>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
+    <div
+      className='sub-footer'
+      style={{
+        backgroundColor: '#424242',
+        display: 'grid',
+        gridTemplateColumns: '1fr repeat(3,auto) 1fr',
+        gridColumnGap: '5px',
+        justifyItems: 'center',
+      }}
+    >
+      <div className='mi8-copyright'>
+        <span>{data.configJson.footer.copyright_text}</span>
+        {data.configJson.footer.copyright_link && <a href={data.configJson.footer.copyright_link}>{data.configJson.footer.copyright_link}</a>}
+      </div>
+      <div className='links'>
+        <Link className='a' to='/'>
+          Home
+        </Link>
+        <Link className='a' to='/contact'>
+          Contact
+        </Link>
       </div>
     </div>
   );

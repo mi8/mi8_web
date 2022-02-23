@@ -12,17 +12,17 @@
   }
   @include media-breakpoint-up(md) {
     position: absolute;
-    bottom: -100px; // -50px Previously
+    bottom: -240px; // -50px Previously
     left: -50px;
     width: 700px;
   }
   @include media-breakpoint-up(lg) {
-    bottom: -120px; // -60px Previously
+    bottom: -270px; // -60px Previously
     left: -60px;
     width: 800px;
   }
   @include media-breakpoint-up(xl) {
-    bottom: -150px; // -100px Previously
+    bottom: -270px; // -100px Previously
     left: -70px;
     width: 850px;
   }

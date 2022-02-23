@@ -2,6 +2,11 @@
   "parser": "@babel/eslint-parser",
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "plugins": ["@babel", "react", "jsx-a11y", "import"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "env": {
     "es6": true,
     "browser": true,
@@ -14,15 +19,13 @@
   "rules": {
     "max-len": ["error", { "code": 160 }],
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
-    "linebreak-style": ["error", "unix", "windows"],
     "semi": ["error", "always"],
-    "arrow-parens": ["error", "as-needed"],
     "arrow-body-style": ["error", "as-needed"],
-    "no-unused-vars": 0,
+    "no-unused-vars": 1,
     "no-console": 0,
     "no-useless-escape": 0,
     "prefer-destructuring": 0,
-    "comma-dangle": ["error", "never"],
+    "no-redeclare": ["error", { "builtinGlobals": true }],
     "indent": ["error", 2],
     "react/no-unescaped-entities": 0,
     "react/prop-types": 0,
@@ -39,6 +42,7 @@
     "import/no-unresolved": 2,
     "import/prefer-default-export": 0,
     "import/order": ["error"],
+
     "object-curly-newline": [
       "off",
       {

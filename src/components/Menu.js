@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, useStaticQuery, Link } from 'gatsby';
 
-const Menu = props => {
+const Menu = () => {
   const data = useStaticQuery(graphql`
     query MainMenuQuery {
       allMainMenuJson {

@@ -1,14 +1,12 @@
 ---
-title: "Mergers"
+title: 'Expertise & Consulting Services'
 date: 2018-11-28T15:15:34+10:00
 featured: true
 draft: false
 weight: 4
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Aside from end-to-end digital solutions, mi8 also offers consulting services to mature IT & digital departments. We understand the challenges for organisations to build up knowledge for a Mobile first, Cloud first & Smart Devices world, and the risks of an unsettled technological landscape. We offer expertise on various topics such as Xamarin Cross-Platform Development, Mobile DevOps, Mobile Testing, Mobile Security and Mobile Enterprise integration.
 
 ## Ne verba patulosque numen vix libet
 
@@ -23,7 +21,7 @@ male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
 5. Ardua non igne caelesti coniugis cognovi diversorum
 6. Per nunc pariterque saeva vindicet
 
-Locus evicit __loquuntur Tyrrhena omnes__, obstipui pugnabant temptavit Phoco _vati_
+Locus evicit **loquuntur Tyrrhena omnes**, obstipui pugnabant temptavit Phoco _vati_
 dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
 Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
 esse iam feres mortis Plurima.
