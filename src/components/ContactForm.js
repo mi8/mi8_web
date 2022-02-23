@@ -46,7 +46,7 @@ const Contactform = () => {
           <div className='contact-information'>
             <div className='right-content'>
               <h3>Contact Information</h3>
-              <p>We're open for any suggestion or just to have a chat</p>
+              <p>We're open for any suggestions or just to have a chat</p>
               <div className='all-info'>
                 <div className='information'>
                   <div className='circle'>
