@@ -16,7 +16,7 @@ $padding-content: 3rem;
 }
 
 .block {
-  border-radius: 25px;
+  // border-radius: 25px;
   box-shadow: 5px 5px 15px 5px #000000;
   width: 949px;
   min-height: 720px;
@@ -27,7 +27,7 @@ $padding-content: 3rem;
   .write-us {
     background-color: #262b34;
     @include max-size;
-    border-radius: 20px 0px 0px 20px;
+    // border-radius: 20px 0px 0px 20px;
     .left-content {
       padding: $padding-content;
       h3 {
@@ -68,7 +68,7 @@ $padding-content: 3rem;
   .contact-information {
     background-color: #1c1e25;
     @include max-size;
-    border-radius: 0px 20px 20px 0px;
+    // border-radius: 0px 20px 20px 0px;
     .right-content {
       padding: $padding-content;
       @include max-size;
